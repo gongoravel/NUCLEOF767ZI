@@ -1,5 +1,7 @@
 /************************
 Here you have a USART communication example through for the NUCLEO-F767ZI Board
+In this configuration USART3 is used which allows the direct interface Board-Computer USING THE usb to serial conversion of the STLINK 
+(i.e. No external serial modules needed)
 1. On the serial terminal the MCU returns the Byte sent from the console (Echo)
 2. When the ASCII of 'a' is received then it toggles the LED connected to PB0
 
